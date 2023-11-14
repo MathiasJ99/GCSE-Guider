@@ -1,0 +1,228 @@
+.body p {
+    font-size: 3vw;
+    color: aliceblue;
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.body h1 {
+    font-size: 6vw;
+    font-family: "Baloo Thambi 2", cursive;
+    text-transform: none;
+}
+
+
+
+.navbar {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.btn{
+    font-family: "Baloo Thambi 2", cursive;
+}
+/*
+ * old Nav bar
+
+
+#navbar { text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  background-color: #343a40;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+#navbar-item   li {list-style: none; display: inline-block; 
+    
+}
+
+#navbar-item  a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 18px 40px;
+  text-decoration: none;
+}
+
+#navbar-item   a:hover {
+  background-color: #111;
+  color: #f8f8f8;
+}
+
+.active {
+  color: #ffffff;
+
+}
+ */
+
+.navbar{
+    background-color: #343a40;
+}
+
+.nav-item{
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+
+/*
+ * Hero
+ */
+
+
+.hero{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("/images/mountains2.jpg");
+    background-blend-mode: multiply;
+    background-position: center;
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 100%;
+
+}
+.hero h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: "Baloo Thambi 2", cursive;
+    
+}
+.hero p{
+    padding: 40px 30px;
+    font-family: "Baloo Thambi 2", cursive;
+    font-size: 2vh;
+}
+
+/** buttons**/
+
+
+.btn a:hover{
+  background-color: #111;
+  color: #f8f8f8;    
+}
+.btn1 {
+    color: white;
+    font-family: "Baloo Thambi 2", cursive;
+    
+}
+
+.btn2 {
+    color: black;
+    font-family: "Baloo Thambi 2", cursive;
+    
+}
+
+/*
+ * subjects
+ */
+.subjects {
+   text-align: center; 
+   font-family: "Baloo Thambi 2", cursive;
+    
+}
+.subjects h1{
+    padding-top: 60px;
+    text-align: center;
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.subjects p {
+    font-size: 2vh;
+}
+
+
+.block1 {
+    background-color: #343a40;
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    animation-fill-mode: forwards;
+    
+}
+
+.block2 {
+    background-color: rgba(227, 232, 237, 0.47);
+    color: black;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.foot{
+    background-color: #343a40;
+    color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.foot p{
+    font-size: 2vh;
+}
+
+.tips {
+   text-align: center;
+   font-family: "Baloo Thambi 2", cursive;
+}
+.tips h1{
+    padding-top: 60px;
+    font-family: "Baloo Thambi 2", cursive;
+}
+.tips p{
+    font-size: 2vh;
+}
+
+.hero1 {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countdown {
+    font-family: "Baloo Thambi 2", cursive;
+}
+.countdown h1{
+   vertical-align: middle;
+   display: inline-block; 
+   font-size: 6vw;
+}
+
+.countdown h2{
+    text-align: center;
+    font-size: 4vw;
+}
+    
+.timer {
+    text-align: center;
+    padding: 20px 100px;
+}
+    
+.images {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
