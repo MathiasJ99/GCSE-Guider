@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Primary Meta Tags -->
+<title> GCSE Countdown | GCSE Guider</title>
+<meta name="title" content=" GCSE Countdown | GCSE Guider">
+<meta name="description" content="A GCSE countdown with tips and trick to help you with your GCSEs">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.gcseguider.com/countdown.html">
+<meta property="og:title" content=" GCSE Countdown | GCSE Guider">
+<meta property="og:description" content="A GCSE countdown with tips and trick to help you with your GCSEs">
+<meta property="og:image" content="">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.gcseguider.com/countdown.html">
+<meta property="twitter:title" content=" GCSE Countdown | GCSE Guider">
+<meta property="twitter:description" content="A GCSE countdown with tips and trick to help you with your GCSEs">
+<meta property="twitter:image" content="">
+
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+
+    
+    <!-- Custom styles for this template -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+ <link href="css/custom.css" rel="stylesheet">
+ <link href="css/agency.css" rel="stylesheet">
+ <link href="css/agency.min.css" rel="stylesheet"> 
+ <link href="css/countdown.css" rel="stylesheet">  
+ <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap" rel="stylesheet">     
+<!-- fonts-->
+      
+ 
+      
+</head>
+    
+    
+    
+<body>
+
+
+ <nav class = "navbar navbar-expand-sm navbar-dark  justify-content-center ">
+    <a class = "navbar-brand nav" href = "index.html">GCSE Guider</a>
+    <button class = "navbar-toggler" type = "button" data-toggle = "collapse" 
+       data-target = "#navbarSupportedContent" 
+       aria-controls = "navbarSupportedContent" aria-expanded = "false" 
+       aria-label = "Toggle navigation">
+
+       <span class = "navbar-toggler-icon"></span>
+    </button>
+
+    <div class = "collapse navbar-collapse align-items-center justify-content-center" id = "navbarSupportedContent">
+       <ul class = "navbar-nav  align-items-center justify-content-center">
+          <li class = "nav-item">
+             <a class = "nav-link" href = "index.html">Home 
+                <span class = "sr-only"></span>
+             </a>
+          </li>
+          <li class ="nav-item active">
+             <a class = "nav-link" href = "#">CountDown</a>
+          </li>
+          <li class = "nav-item">
+             <a class = "nav-link" href = "pastpapers.html">Past Papers</a>
+          </li>
+          <li class = "nav-item">
+             <a class = "nav-link" href = "SRL.html">SRL</a>
+          </li>
+       </ul>
+
+    </div>
+ </nav>
+
+      
+<div class="hero">
+<div class = "">
+
+
+    
+    
+     <h2 class="countdown wow slideInLeft">GCSE 2021 Count Down </h2>
+
+    <div class = "row countdown" id = "countdown">
+
+        <div class="col-md timer wow slideInLeft"> 
+            <h1><div id ="days">00</div></h1>
+            <br>
+            <h1>Days</h1>
+        
+        </div>
+        
+         
+        <div class="col-md scroll wow fadeIn timer" data-wow-duration="4s">
+           <h1><div id ="hours">00</div></h1>
+            <br>
+            <h1>hours</h1>
+        </div> 
+        <div class="col-md timer wow slideInRight">
+            <h1><div id ="minutes">00</div></h1>
+            <br>
+            <h1>minutes</h1>
+        </div> 
+        
+    </div>  
+    
+</div>
+</div>
+    
+<script>
+
+var countDownDate = new Date("May 14, 2021 15:37:25").getTime();
+var x = setInterval(function() {
+
+var now = new Date().getTime();
+var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+
+  // Display the result in the element with id="demo"
+  document.getElementById("days").innerHTML = days;
+    
+  document.getElementById("hours").innerHTML =  hours;
+
+  document.getElementById("minutes").innerHTML =  minutes;  
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "GCSE's have started";
+  }
+}, 1000);
+</script>
+
+<div class="tips">
+    
+    <div class="row">
+        <div class="col-md block1 wow slideInLeft ">
+            <h1> Tip 1 use past papers</h1>
+            <p>Past Papers are a surefire way to improve any subject you are taking as they expose your weak points. Make sure to do them under exam conditions.</p>
+            <a href ="pastpapers.html"><button type="button" class="btn btn1 btn-outline-secondary btn-lg">Continue</button></a>
+        </div>
+        
+        <div class="col-sm-5 block2 wow slideInRight">
+            <h1> tip 2 Do a sport / excersie</h1>
+            <p>It has been proven that excersie helps relax the mind. to learn more click below </p>
+           <a href ="https://www.psychologytoday.com/us/blog/the-athletes-way/201409/moving-your-body-is-good-your-mind"> <button type="button" class="btn btn2 btn-outline-secondary btn-lg">Continue</button></a>
+    </div>    
+        
+    <div class="row">
+        <div class="col-sm-5 block2 wow slideInRight">
+            <h1> tip 3 flash cards are the key</h1> 
+            <p>flash cards combined with SRL are a very effective way of remembering inforamtion long term.</p>
+            <a href ="SRL.html"><button type="button" class="btn btn2 btn-outline-secondary btn-lg">Continue</button></a>
+        </div>
+        
+        <div class="col-md block1 wow slideInLeft ">
+            <h1>tip 4 how to deal with stress</h1>
+            <p>Too much stress can be vey harmful mentally and as a result can make it much harder to concentrate and learn. To learn how to deal with stress click below</p>
+           <a href="https://www.skillsyouneed.com/ps/stress-tips.html"> <button type="button" class="btn btn1 btn-outline-secondary btn-lg">Continue</button></a>
+        </div>
+    </div> 
+    
+</div>
+    
+
+<br>
+    
+<nav>
+    <div class="foot">
+            <p style="display:inline">  Good luck on your GCSE's  |  Made by Mathias J </p>
+            <p style="display:inline">  |  </p>
+            <p id="count" style="display:inline">0</p><p style="display:inline"> total page views</p>
+    </div>
+</nav>
+    </div>
+    
+      
+<script type="text/javascript" src= "js/wow.min.js"></script>
+<script>
+new WOW().init();    
+</script>
+      
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="js/count.js"></script>
+      
+</body>
+</html>
